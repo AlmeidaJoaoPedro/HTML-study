@@ -1,0 +1,17 @@
+TAGS
+    As TAGS são os elementos básicos em um documento HTML usados para especificar o formato do conteúdo de uma página web;
+
+        Exemplos:
+            <html> e </html> - Inicia e encerra um documento html;
+            <head> e </head> - Inicia e encerra a área do cabeçalho;
+            <body> e </body> - Inicia e encerra a área do corpo(conteúdo) do documento html;
+            <title> e </title> - 
+
+TAGS SEM FECHAMENTO
+    Algumas TAGS não necessitam de fechamento;
+
+        Exemplos:
+            <BR> ou <Break> - Utilizado para pular linha;
+
+
+        

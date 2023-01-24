@@ -1,0 +1,80 @@
+TAGS
+    As TAGS são os elementos básicos em um documento HTML usados para especificar o formato do conteúdo de uma página web;
+
+        TAGS de estrutura do html:
+            <html> e </html> - Inicia e encerra um documento html;
+            <head> e </head> - Inicia e encerra a área do cabeçalho;
+            <title> e </title> - Inicia e encerra a linha de titulo;
+            <body> e </body> - Inicia e encerra a área do corpo(conteúdo) do documento html;
+            <!--comentario aq--> - Insere comentários;
+            <pre> e </pre> - Inicia e encerra trecho que deve manter a formatação igual a do html;
+
+        
+        TAGS de formatação:
+
+            TAGS de formatação de texto:
+                <p> e </p> - Inicia e encerra um parágrafo;
+                <h1> e </h1> - Inicia e encerra um subtítulo;
+
+                <br> ou <break> - Utilizado para pular linha (TAG sem fechamento);
+                    OBS: Quando o codigo não informa onde ocorrerá a quebra de linha o texto se ajusta ao tamanho da janela
+
+                <b> e </b> - Inicia e encerra um texto em negrito;
+                <i> e </i> - Inicia e encerra um texto em itálico;
+                <u> e </u> - Inicia e encerra um texto sublinhado;
+
+            TAGS de formatação de alinhamento:
+                <p align = left> texto aqui </p> - Alinha conteúdo (nesse caso um parágrafo) à esquerda;
+                <p align = right> texto aqui </p> - Alinha conteúdo (nesse caso um parágrafo) à direita;
+                <p align = center> texto aqui </p> - Centraliza conteúdo (nesse caso um parágrafo);
+                <p align = justify> texto aqui </p> - Justifica conteúdo (nesse caso um parágrafo);
+            
+            TAGS de formatação de fonte:
+                <p><font size = "tamanho da fonte"> texto aqui </p> - Altera o tamanho da fonte de um parágrafo (varia de 1-7);
+                <p><font color = "cor da fonte"> texto aqui </p> - Altera a cor da fonte de um parágrafo (HEX ou nome);
+                <p><font face = "nome da fonte"> texto aqui </p> - Altera a fonte de um parágrafo;
+            
+            LISTAS
+                CRIAÇÃO
+                    <ol> e </ol> - abre e fecha uma lista numerada
+                    <ul> e </ul> - abre e fecha uma lista não numerada
+                    <li> - abre cada item da lista
+                
+                FORMATAÇÃO
+                    <ol type = "estilo do numero"> lista aq <ol>;
+                        A - exibe letras maiúsculas;
+                        a - exibe letras minúsculas;
+                        I - exibe números romanos grandes;
+                        i - exibe números romanos pequenos;
+
+                    <ul type = "estilo do marcador"> lista aq <ol>;
+                        disc - exibe um disco;
+                        circle - exibe um círculo;
+                        square - exibe um quadrado;
+            
+            IMAGENS
+                <img src = "localização da imagem"> - insere imagem ;
+                <img alt = "Descrição da imagem"> - texto alternativo caso o navegador não abra a imagem;
+
+                ALINHAMENTO
+                    <img src = "localização da imagem" align = top> - Insere imagem acima;
+                    <img src = "localização da imagem" align = bottom> - Insere imagem abaixo;
+                    <img src = "localização da imagem" align = middle> - Insere imagem no meio;
+                    <img src = "localização da imagem" align = right> - Insere imagem na direita;
+                    <img src = "localização da imagem" align = left> - Insere imagem na esquerda;
+
+            LINKS
+                <a> e </a> - cria links no hipertexto
+                    <a href= "URL"> Texto que vai virar link</a>
+
+                <a name = "Nome da seção"> - cria um seção linkavel
+                    <a href= "#Nome da seção"> Texto que vai virar link</a>
+
+                <a href= "URL"><img src = "diretorio da imagem"></a> - cria um link em uma imagem
+
+                <body link = "cor"> - define a cor dos links não acessados
+                <body link = "cor"> - define a cor do link quando o mouse é passado por cima do mesmo
+                <body vlink = "cor"> - define cor dos links após serem acessados
+
+        TAGS adicionais:
+        <hr> - insere linha horizontal

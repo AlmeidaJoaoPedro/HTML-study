@@ -63,6 +63,9 @@ TAGS
                     <img src = "localização da imagem" align = right> - Insere imagem na direita;
                     <img src = "localização da imagem" align = left> - Insere imagem na esquerda;
 
+                MAPEAMENTO
+                    <img src="localização da imagem" alt="Descrição da imagem" usemap="#nome da imagem sem extensão e sem localização"> - Mapeia imagem
+
             LINKS
                 <a> e </a> - cria links no hipertexto
                     <a href= "URL"> Texto que vai virar link</a>
